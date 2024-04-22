@@ -25,7 +25,7 @@ public class Programa06 {
         scanner.close();
     }
     
-    // Função para converter a hora de 24 horas para 12 horas
+    
     public static String converterPara12Horas(int hora, int minutos) {
         String periodo;
         
@@ -36,9 +36,9 @@ public class Programa06 {
         }
         
         if (hora == 0) {
-            hora = 12;  // 12 A.M. em vez de 0 A.M.
+            hora = 12;  
         } else if (hora > 12) {
-            hora = hora - 12;  // Converte para formato de 12 horas
+            hora = hora - 12; 
         }
         
         return hora + ":" + minutos + " " + periodo;
